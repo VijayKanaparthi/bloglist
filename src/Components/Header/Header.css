@@ -1,0 +1,40 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 100vw;
+  margin: 10px 20px;
+}
+
+.image-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.image-title-container img {
+  width: 50px;
+  height: 50px;
+}
+.image-title-container h1 {
+  font-size: 25px;
+  font-family: "Roboto";
+}
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.links-container li {
+  font-family: "Roboto";
+  font-size: 25px;
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
